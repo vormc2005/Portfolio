@@ -1,24 +1,35 @@
 <!doctype html>
 <html lang="en">
+
 <head>
 
 
-<title>My first page</title>
-
-<link rel="stylesheet" href="style1.css" />
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <title>My first page</title>
 
 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="style1.css" />
 </head>
 
 <body>
 
   <!--About me, Portfolio, Contact me-->
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <H2 class="name" >Dmitry Voronov</H2>
-    
-      <ul class="navbar-nav">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light no-gutters">
+    <H2 class="name">Dmitry Voronov</H2>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+      <span class="navbar-toggler-icon"></span>
+
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav navbar-right">
         <li class="nav-item">
           <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
         </li>
@@ -28,72 +39,92 @@
         <li class="nav-item">
           <a class="nav-link" href="Contact Form.html">Contact</a>
         </li>
-       
+
       </ul>
     </div>
   </nav>
-    
-
-    
-
-    <h2>Contact</h2>
-    <form>
-      <div class="form-group">
-        <label for="name">First and last name</label>
-        <input type="Name" class="form-control" id="name">
-       
-      </div>
-      <div class="form-group">
-        <label for="email">E-mail address</label>
-        <input type="email" class="form-control" id="email">
-      </div>
-      <div class="form-group">
-        <label for="exampleFormControlTextarea1">Comments and requests</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-      </div>
-      
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
 
 
 
 
+  <h2>Contact Me</h2>
+
+  <form action="https://formspree.io/mknbrjny" method="POST">
 
 
-    <!--First Name-->
-    <!-- <form>
-      <p>
-        <label>Fisrst and Last Name</label>
-        <input type="text" name="firstandlastname" placeholder="Joe Doe" />       
-      </p>
-      Last name
-     <p> -->
-        <!-- <label>E-mail address</label>
-        <input type="text" name="email" placeholder="joedoe@gmail.com" />
-      </p>
-      <p>
-        <label for="Message">Message</label>
-        <textarea>Type your message here</textarea>
-      </p>
-    </form>
+    <label id="userinfo">
+      Your name:
+      <br>
+      <input type="text" name="name" id="inputs">
+    </label>
+    <br>
 
-   
-    <!-- <div class="footer"> -->
-      <div class="footer">
-      <div class="container-fluid">
+    <label id="userinfo">
+      Your email:
+      <br>
+      <input type="email" name="_replyto" id="inputs">
+    </label>
+    <br>
+
+    <label id="userinfo">
+      Your message:
+      <br>
+      <textarea name="message" class="form-control" rows="3" id="inquirytext"></textarea>
+    </label>
+    <br>
+
+    <!-- your other form fields go here -->
+
+    <button type="submit" id="submitinfo" class="btn btn-primary">Send</button>
+  </form>
+
+
+
+  <!-- <form action="MAILTO: voronov.dmitry@gmail.com" method="POST" enctype="multipart/form-data">
+    <div class="form-group">
+      <label for="name">First and last name</label>
+      <input type="text" class="form-control" name="name" id="name">
+
+    </div>
+    <div class="form-group">
+      <label for="email">E-mail address</label>
+      <input type="email" class="form-control" id="email">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Comments and requests</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form> -->
+
+  <!-- <div class="footer"> -->
+
+
+  <div class="footer">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-12">
-          <h6>Copyright</h6>
-    
+          
+          <div class="contactbuttons">
+          <a class="btn btn-primary" href="https://github.com/vormc2005" role="button"><span
+              class="fab fa-github-square"></span></a>
+          <a class="btn btn-primary" href="https://linkedin.com/in/dmitry-voronov-lets-work-happy" role="button"><span
+              class="fab fa-linkedin"></span></a>
+              <a class="btn btn-primary" href="MAILTO: voronov.dmitry@gmail.com" method="POST" role="button"><span
+                class="fas fa-envelope"></span></a>
+          </div>
+
         </div>
       </div>
     </div>
-    
-    </div> 
-   
+
+  </div>
 
 
- 
+
+
 
 </body>
+
 </html>

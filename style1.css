@@ -93,11 +93,10 @@ img {
     height: 100px;
     color: white;
     background: #333333;
-
+    margin-bottom: 0;
     text-align: center;
     border-top: 8px solid #4aaaa5;
  
-
   }
 
    /* styling cards */
@@ -137,18 +136,39 @@ img {
             left: 130px;
  }
 
-   .form-group{
-            margin-top: 50px;
-   }
 
      form {
        
-         width: 600px;
+         width: 60%;
          margin: 0 auto;
          border: 1px solid white;
          background-color:white;
+         border-radius: 10px;
+    }
+    #inquirytext {      
+    width:100%;
+    padding:10px;     
+
     }
 
-  
-
+    #submitinfo {
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    #inputs{
+      
+      width: 60%;
+      display: block;
+      margin-left: 100px;
+      margin-right: auto;
+    }
+    #userinfo{
+      display: block;
+      margin-left: auto;
+      margin-right: auto
+    }
+    .contactbuttons{
+      margin-top: 20px;
+    }
     
