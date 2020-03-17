@@ -60,7 +60,7 @@ img {
   float: left;
   padding: 10px;
     width: 320px;
-    height: 380px;
+    height: 360px;
 }
 
  h2 {
@@ -104,7 +104,7 @@ img {
 /* Styling card images on the portfolio page */
   .card-img-top{
 
-    height:230px;
+    height:200px;
 
   }
 
