@@ -7,6 +7,9 @@ html, body {
     height: 100%;
     width: 100%;
 }
+#navcolor{
+  color: #4aaaa5;
+}
 
  .navbar-nav {
      margin-right: 100px;
@@ -23,8 +26,8 @@ body {
 }
  .name {
      /* position: absolute; */
-     /* background-color:#DFDFDF; */
-     padding: 10px;
+     /* background-color:#DFDFDF;
+     padding: 10px; */
      /* left: 200px; */
      margin-top: 0px;
  }  
