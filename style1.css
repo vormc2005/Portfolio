@@ -9,8 +9,10 @@ html, body {
 }
 
  .navbar-nav {
-     margin-right: 200px;
- }
+     margin-right: 100px;
+     background-color: #DFDFDF;
+      padding-left: 5px;
+      }
  
 body {
     
@@ -20,23 +22,21 @@ body {
 
 }
  .name {
-     position: absolute;
-     background-color: teal;
+     /* position: absolute; */
+     /* background-color:#DFDFDF; */
      padding: 10px;
-     left: 200px;
+     /* left: 200px; */
      margin-top: 0px;
  }  
   
-.menu li a {
-
-
+/* .menu li a {
    text-decoration: none;
    text-transform: uppercase;
-   padding: 0px;
+   padding: 5px;
    font-size: 14px;
    color:gray;
-
-}
+  background-color: #DFDFDF;
+} */
 
 
 p {
