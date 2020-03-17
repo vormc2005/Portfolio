@@ -125,7 +125,9 @@ img {
     background-color:#ECECEC;
     border-radius: 10px;
 }
-
+  #portfolio{
+    animation-direction: alternate;
+  }
   
   
   
@@ -139,16 +141,19 @@ img {
 
      form {
        
-         width: 60%;
+         width: 30%;
          margin: 0 auto;
          border: 1px solid white;
          background-color:white;
          border-radius: 10px;
     }
     #inquirytext {      
-    width:100%;
-    padding:10px;     
-
+    width:80%;
+    padding:10px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
     }
 
     #submitinfo {
@@ -156,17 +161,20 @@ img {
     margin-left: auto;
     margin-right: auto;
     }
+
+    #leaveContacts{
+      height:80%
+    }
+
     #inputs{
       
-      width: 60%;
-      display: block;
-      margin-left: 100px;
-      margin-right: auto;
-    }
-    #userinfo{
+      width: 40%;
       display: block;
       margin-left: auto;
-      margin-right: auto
+      margin-right: auto;
+    }
+    #name, #email, #message{
+     text-align: center;
     }
     .contactbuttons{
       margin-top: 20px;
